@@ -18,25 +18,26 @@ La API permite:
 
 ## 🧱 Estructura del Proyecto
 
+```
 src/
 ├── app.js                       # Punto de entrada
 ├── routes/                      # Rutas de la API
 │   └── productoRoutes.js
-├── controllers/                # Controladores
+├── controllers/                 # Controladores
 │   └── productoController.js
-├── services/                   # Lógica de negocio
+├── services/                    # Lógica de negocio
 │   └── producto.service.js
-├── models/                     # Validación de datos
+├── models/                      # Validación de datos
 │   └── producto.js
-├── repository/                 # Acceso a los datos (persistencia en JSON)
+├── repository/                  # Acceso a los datos (persistencia en JSON)
 │   └── productoRepository.js
-├── utils/
-│   └── JsonHandler.js          # Lectura/escritura del archivo database.json
-└── data/
-    └── database.json           # Archivo que simula una base de datos
+├── utils/                       # Utilidades generales
+│   └── JsonHandler.js           # Lectura/escritura del archivo database.json
+└── data/                        # Carpeta para simular base de datos
+    └── database.json            # Archivo que simula una base de datos
+```
 
 
----
 
 ## 🔗 Endpoints disponibles
 
