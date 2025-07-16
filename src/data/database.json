@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c49c7a03-02c3-4f0c-bd66-c4ada7a4ed89",
+    "producto": "Mouse Gamer",
+    "stockAmount": 25,
+    "fechaIngreso": "2025-07-16T23:15:44.105Z"
+  },
+  {
+    "id": "02c13638-9125-48eb-a5db-ddf2dec33150",
+    "producto": "Teclado Gamer",
+    "stockAmount": 2,
+    "fechaIngreso": "2025-07-16T23:16:00.957Z"
+  },
+  {
+    "id": "eb8a3bd3-4bdb-469b-b8d7-0a8535aee499",
+    "producto": "Pc Gamer",
+    "stockAmount": 2,
+    "fechaIngreso": "2025-07-16T23:16:42.035Z"
+  },
+  {
+    "id": "eed330f1-0338-4b54-b11d-4073fd29c2e6",
+    "producto": "Pc Normal",
+    "stockAmount": 50,
+    "fechaIngreso": "2025-07-16T23:16:53.165Z"
+  },
+  {
+    "id": "7fd45128-84af-4c48-a807-6e7527aeaa70",
+    "producto": "Pc Mala",
+    "stockAmount": 1,
+    "fechaIngreso": "2025-07-16T23:18:51.621Z"
+  }
+]

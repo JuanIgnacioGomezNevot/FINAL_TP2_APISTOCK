@@ -1,0 +1,36 @@
+{
+  "name": "FINAL_TP2-Juan_Ignacio_Gomez_Nevot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "node --watch ./src/app.js",
+    "lint": "npx @biomejs/biome format --write ./src"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.1",
+    "morgan": "^1.10.0"
+  }
+}

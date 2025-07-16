@@ -1,0 +1,22 @@
+### Crear producto
+POST http://localhost:3000/api/v1/productos
+Content-Type: application/json
+
+{
+  "producto": "Pc Mala",
+  "stockAmount": 1
+}
+
+### Listar productos
+GET http://localhost:3000/api/v1/productos
+
+### Obtener producto por ID
+GET http://localhost:3000/api/v1/productos/eed330f1-0338-4b54-b11d-4073fd29c2e6
+
+### Incrementar stock
+PUT http://localhost:3000/api/v1/productos/eed330f1-0338-4b54-b11d-4073fd29c2e6/updateStock
+Content-Type: application/json
+
+{
+  "cantidad": 10
+}
